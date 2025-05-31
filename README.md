@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# ⚡ Reaction Duel
 
-## Project info
+A fast-paced 1v1 reflex battle where the first player to click wins!  
+Simple, intense, and built for instant showdowns.
 
-**URL**: https://lovable.dev/projects/b8700406-bbac-4ee0-b328-b57e43e6d9d3
+![Reaction Duel Banner](https://user-images.githubusercontent.com/your-banner-url.png)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎮 Gameplay
 
-**Use Lovable**
+> _“Get ready... Wait for it... CLICK NOW!”_
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b8700406-bbac-4ee0-b328-b57e43e6d9d3) and start prompting.
+- Two players are matched in a virtual duel.
+- A **“CLICK NOW”** signal appears after a **random delay** (1–4 seconds).
+- The **first player** to click wins.
+- If you click **too early**, you lose the round.
+- No response from opponent? You still win — it’s part of the reflex game logic.
 
-Changes made via Lovable will be committed automatically to this repo.
+✅ Works even with just one player connected.  
+🎯 Clean game loop — no awkward dead states.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💡 Why It Stands Out
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- ⚡ **Instant Playability** — Works even when only one player reacts.
+- 🤝 **Real-Time Multiplayer** — Fast syncing via WebSockets.
+- 🧠 **Mind Game Vibe** — Makes players hesitate, overthink, and react.
+- 🎨 **Neon UI & Terminal Aesthetic** — Styled for a modern cyber-duel feel.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Live Demo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+👉 [Play Reaction Duel Now](https://reaction-duel.vercel.app) ← _(replace with actual link)_
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Built With
 
-**Edit a file directly in GitHub**
+| Feature         | Stack                       |
+|----------------|-----------------------------|
+| Frontend       | React + Tailwind CSS        |
+| Realtime       | Socket.IO / Ably / Supabase |
+| UI Animations  | Framer Motion               |
+| Sound Effects  | Howler.js                   |
+| Hosting        | Vercel                      |
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📸 Screenshots
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+| Waiting Screen                        | Signal Appears                         | Duel Result                          |
+|--------------------------------------|----------------------------------------|--------------------------------------|
+| ![](https://your-url.com/waiting.png) | ![](https://your-url.com/signal.png)   | ![](https://your-url.com/result.png) |
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## ✨ Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- 🎯 Randomized wait time for signal
+- 🧠 Anti-cheat for early clicks
+- 📲 Mobile-friendly layout
+- 🎨 CSS glitch effects for cyberpunk vibes
+- 🔊 Optional sound + vibration support
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/b8700406-bbac-4ee0-b328-b57e43e6d9d3) and click on Share -> Publish.
+## 👨‍💻 Getting Started (Local Setup)
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone https://github.com/Adwaitbytes/VCC_Adwait.git
+cd VCC_Adwait
+npm install
+npm start
